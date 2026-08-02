@@ -189,33 +189,32 @@ int main()
     return 0;
 }
 
-// Function definitions for various operations
-
+//Functon for addition
 double add(double a, double b)
 {
     return a + b;
 }
-
+//Function for subtraction
 double subtract(double a, double b)
 {
     return a - b;
 }
-
+//Function for multiplication
 double multiply(double a, double b)
 {
     return a * b;
 }
-
+//Function for division
 double divide(double a, double b)
 {
     return a / b;
 }
-
+//Fuction for reminder or modulus
 int modulus(int a, int b)
 {
     return a % b;
 }
-
+//Function for exponent
 double exponent(double base, double power)
 {
     return pow(base, power);
